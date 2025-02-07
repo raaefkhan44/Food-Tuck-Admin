@@ -145,7 +145,7 @@ export default function AdminDashboard() {
                   {filteredOrders.map((order) => (
                     <React.Fragment key={order._id}>
                       <tr
-                        className="hover:bg-gray-100 transition-all cursor-pointer"
+                        className="hover:bg-[#FF7600] transition-all cursor-pointer"
                         onClick={() => toggleOrderDetails(order._id)}
                       >
                         <td className="p-2">{order._id}</td>
